@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+#copy{
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #b8b5ae, #feb47b);
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#hexcode {
+    margin-top: auto;
+    font-size: 16px;
+    color: #666;
+}
